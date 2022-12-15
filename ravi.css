@@ -2,7 +2,37 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+.search-div{
+    display: flex;
+    margin: auto;
+    justify-content: center;align-items: center;
+            border: 1px solid gray;
+            width: 65%;
+            justify-content: space-around;
+}
+.ul-div{
+    width: 100%;
+    border:1px solid red;
+justify-content: center;
+margin-left: 5px;
+    display: flex;
+}
+.ul-div>h5{
+    padding-right: 15px;
 
+}
+.ul-div>h5::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #3662D8;
+    transition: width .3s;
+}
+.ul-div>h5:hover::after{
+    width: 100%;
+    color: #3662D8
+}
 .first-div {
     display: flex;
     margin: auto;
