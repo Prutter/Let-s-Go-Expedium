@@ -42,7 +42,7 @@
     const appenddata=(data)=>{
         let render = document.getElementById("render")
         
-        render.innerHTML=null;
+        render.innerHTML="";
         data.forEach((element)=>{
             
 
