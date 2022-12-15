@@ -1,0 +1,36 @@
+.addhotel{
+    width: 45%;
+    margin: auto 5% ;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color:RGB(176 170 168);
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+label,input,select{
+    font-size: 16px;
+    width: 90%;
+    margin: 5px auto;
+    padding: 7px  50px 7px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-image: url(https://www.pennmedicine.org/-/media/images/miscellaneous/random%20generic%20photos/person_at_airport_holding_coffee_and_luggage.ashx?mw=620&mh=408);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+}
+button{
+    padding: 10px 40px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
