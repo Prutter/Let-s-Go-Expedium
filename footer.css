@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+#main-footer{
+    border: 1px solid red;
+    height: 440px;
+    width: 100%;
+}
+#expedia-group{
+    height: 40px;
+    width: 100%;
+}
+#expedia-group > a > img{
+    width: 150px;
+    height: 40px;
+    margin-left: 140px;
+}
+#company-expedia{
+    height: 225px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.ce-1{
+    height: 225px;
+    width: 20%;
+}
+.ce-1 > p{
+    margin-top: 1px;
+    padding: 8px 0px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-synthesis: none;
+    border-style: solid;
+    border-width: 0;
+    font-size: 14px;
+    line-height: inherit;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-weight: 600;
+    list-style: none;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+.ce-1 > a{
+    margin-top: 0px;
+    padding: 7px 0px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-synthesis: none;
+    border-style: solid;
+    border-width: 0;
+    font-size: 12px;
+    line-height: inherit;
+    display: list-item;
+    font-weight: 600;
+    color: rgb(26, 26, 182);
+    list-style: none;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+#underline{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+#fotter-logo{
+    margin-left: 85px;
+    margin-top: 0px;
+}
+#fotter-para{
+    margin-top: 0px;
+    margin-left: 135px; 
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-synthesis: none;
+    font-size: 11px;
+}
