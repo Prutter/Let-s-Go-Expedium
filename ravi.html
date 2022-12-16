@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
     <link rel="stylesheet" href="ravi.css">
 </head>
 
 <body>
 
-<div class="search-div">
+    <div class="search-div">
     <div class="ul-div">
         <h5>Stays</h5>
         <h5>Flights</h5>
@@ -19,9 +20,39 @@
         <h5>Packages</h5>
         <h5>Things to do</h5>
 </div>
-<hr>
+<hr class="new1">
 
+ <div class="tab-content">
+
+      <h3 class="lab">Book Flights</h3>
+      <form> 
+        <select name="origin" class="drop" id="ori">
+           <option value="Origin">Origin</option>
+           <option value="Mumbai">MUMBAI</option>
+           <option value="Delhi">DELHI</option>
+           <option value="Banglore">BANGLORE</option>
+           <option value="Kolkata">KOLKATA</option>
+        </select>
+        <select name="destination" class="drop" id="dest">
+            <option value="Destination">Destination</option>
+            <option value="Mumbai">MUMBAI</option>
+            <option value="Delhi">DELHI</option>
+            <option value="Banglore">BANGLORE</option>
+            <option value="Kolkata">KOLKATA</option>
+        </select>
+        <input type="number" class="drop" name="passengers" step="1" min="1" max="10" placeholder="Number Of Passengers">
+        <span class="lab">Departure:</span>
+        <input type="date" name="depart" class="drop" id="depart">
+        <span class="lab">Return:</span>
+        <input type="date" name="return" class="drop" id="return">
+        <button type="submit" name="Search" id="flightsButton">Search</button>
+      </form>
+
+    </div>
 </div>
+    
+
+
 
 
     <div class="first-div">
@@ -64,8 +95,7 @@
         <h3  class="text-one">Plan ahead and save</h3>
       <p class="text-two" >Book 60 days in advance for 20% off select stays.</p>
     </div>
-    <input type="text" id="search">
-    <button onclick="data()">search</button>
+    
 </body>
 
 </html>
