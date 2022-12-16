@@ -1,0 +1,29 @@
+#havehotel{
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+    display: flex;
+}
+#havehotel >img{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 100%;
+}
+#check{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#check  button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 40px;
+    font-size: 23px;
+}
