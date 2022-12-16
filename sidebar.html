@@ -30,18 +30,40 @@
      <br>
 
      <hr>
+  
+     <br>
 
+     <h3>Sorting by</h3>
+
+     <select name="price" id="price">
+       <option value="any">Sorting by Price</option>
+      <option value="Low to high">Low to high</option>
+      <option value="High to low">High to low</option>
+      
+    </select>
 
      <br>
+     <br>
+
+     <select name="rating" id="rating">
+      <option value="all">Sorting by Rating</option>
+     <option value="low to high">Low to high</option>
+     <option value="high to low">High to low</option>
+     
+   </select>
+    
+
+    <br>
+    <br>
 
      <h3>Filter by</h3>
      <h4>Popular Fiters</h4>
    <div id="first-filter">
 
-    <input type="checkbox" id="vehicle1" >
-    <label for="vehicle1">Delhi (Indira Gandhi Intl.)</label><br>
-    <input type="checkbox" id="vehicle2">
-    <label for="vehicle2"> Free airport shuttle</label><br>
+    <input type="checkbox" id="loc1" >
+    <label for="loc1">Delhi (Indira Gandhi Intl.)</label><br>
+    <input type="checkbox" id="loc2">
+    <label for="loc2">Hyderabad</label><br>
     <input type="checkbox" id="vehicle3"  >
     
     <label for="vehicle3"> Breakfast included</label><br>
@@ -51,25 +73,20 @@
 
     <br>
 
-    <h4>Guest Rating</h4>
-   <div id="second-filter">
-  
-            <input type="radio" id="html" >
-    
-              <label for="html">Any</label><br>
+    <h4>Meals plan available</h4>
+   <div id="fourth-filter">
 
-                 <input type="radio" id="css" >
-       
-                 <label for="css">Wonderful 9+</label><br>
-       
-             <input type="radio" id="javascript" >
-      
-                 <label for="javascript">Very good 8+</label><br>
-           
-                 <input type="radio" id="javascript">
-              <label for="javascript">Good 7+</label>
-      
+    <input type="radio" id="Breakfast" >
+    <label for="Breakfast">Breakfast included</label><br>
+    <input type="radio" id="Lunch">
+    <label for="Lunch">Lunch Included</label><br>
+    <input type="radio" id="Dinner"  >
+    
+    <label for="Dinner">Dinner included</label><br>
+    
     </div>
+
+    
 
   <br>
 
@@ -112,17 +129,24 @@
     <br>
 
 
-    <h4>Meals plan available</h4>
-   <div id="fourth-filter">
+    <h4>Guest Rating</h4>
+   <div id="second-filter">
+  
+            <input type="checkbox" id="html" >
+    
+              <label for="html">Any</label><br>
 
-    <input type="checkbox" id="Breakfast" >
-    <label for="Breakfast">Breakfast included</label><br>
-    <input type="checkbox" id="Lunch">
-    <label for="Lunch">Lunch Included</label><br>
-    <input type="checkbox" id="Dinner"  >
-    
-    <label for="Dinner">Dinner included</label><br>
-    
+                 <input type="checkbox" id="css" >
+       
+                 <label for="css">Wonderful 5+</label><br>
+       
+             <input type="checkbox" id="javascript" >
+      
+                 <label for="javascript">Very good 4+</label><br>
+           
+                 <input type="checkbox" id="javascript">
+              <label for="javascript">Good 3+</label>
+      
     </div>
 
     <br>
@@ -143,8 +167,14 @@
 
    </div>
 
-
+    
+   <div >
+  
+       <p id="container"></p>
+   </div>
 
 </body>
 </html>
+
+<script src="sidebar.js"></script>
 
