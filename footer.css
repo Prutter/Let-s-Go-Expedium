@@ -2,7 +2,6 @@ body{
     margin: 0;
 }
 #main-footer{
-    border: 1px solid red;
     height: 440px;
     width: 100%;
 }
@@ -44,6 +43,7 @@ body{
     --animate-repeat: 1;
 }
 .ce-1 > a{
+    text-decoration: none;
     margin-top: 0px;
     padding: 7px 0px;
     font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
