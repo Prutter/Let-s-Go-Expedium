@@ -22,16 +22,14 @@ form.addEventListener("submit",async(event)=>{
             headers:{
                "Content-Type":"application/json"
             }
-        })
-        alert("Sign In Successful!")
-       
-        console.log("hi");
+        }) 
+        window.location.href="nabanit(login).html"
+        alert("Sign In Successful!") 
     }
     catch(err){
+        console.log("err:",err);
         alert("Unsuccessful Registration!")
+      
     }
-let res=await fetch(url)
-res=await res.json()
-console.log(res);
-window.location.href="nabanit(login).html"
+    
 })
