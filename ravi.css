@@ -3,19 +3,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .search-div{
-    display: flex;
+    display: grid;
     margin: auto;
-    justify-content: center;align-items: center;
             border: 1px solid gray;
             width: 65%;
-            justify-content: space-around;
+           margin-bottom: 40px;
+}
+.new1{
+width: 100%;
+margin-right: 50px;
 }
 .ul-div{
     width: 100%;
-    border:1px solid red;
 justify-content: center;
-margin-left: 5px;
+
     display: flex;
+}
+#search{
+    width: 480px;
 }
 .ul-div>h5{
     padding-right: 15px;
@@ -176,15 +181,51 @@ position: relative;
 
 .text-one{
     position: absolute;
-            top: 1150px;
+            top: 1530px;
             left: 360px;
        color:white;
          
 }
 .text-two{
     position: absolute;
-    top: 1180px;
+    top: 1560px;
     left: 360px;
     color: white;      
             
+}
+
+.tabshead{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+}
+
+#second{
+	margin-top: 11%;
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 3px #131313;
+    background-color: rgba(90,0,0,0.3);
+}
+.drop{
+    padding-right: 15px;
+	color: black;
+	width: 30%;
+	height: 40px;
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	margin-right: 1.2%;
+	margin-left: 1.2%;
+}
+#flightsButton{
+    background-color: #3662D8;
+    color: #FFFFFF;
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-left: 500px; 
+    margin-bottom: 40px;
+    border-radius: 0.5rem;
+}
+.lab{
+    padding-left: 20px;
 }
