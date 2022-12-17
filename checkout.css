@@ -1,0 +1,228 @@
+body{
+    background-color: #ededed;
+
+}
+
+#secure{
+
+
+    border: 0px solid red;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+font-style: normal;
+ font-weight: 700;
+
+ font-size: 25px;
+line-height: 34px;
+color:#202843;
+ 
+}
+
+#discount{
+    border: 0px solid blue;
+    background-color: white;
+    padding: 3px;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-style: normal;
+     font-weight: 700;
+     padding-left: 15px;
+    
+     font-size: 13px;
+   
+    color: #1f1f1f;;
+   
+
+}
+
+
+#grandfather{
+    width: 80%;
+    margin: auto;
+    border: 0px solid blue;
+    padding: 5px;
+
+}
+
+#disc-p{
+    color: #616161
+}
+
+
+#main{
+    display: flex;
+    border: 1px solid blue;
+    gap: 10px;
+    /* height: 600px; */
+    padding: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#main-first{
+    border: 1px solid blue;
+    width: 65%;
+
+}
+
+#main-sec{
+    border: 1px solid blue;
+    width: 35%;
+}
+#first-one{
+    border: 1px solid blue;
+    background-color: white; 
+   
+    display: flex;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-style: normal;
+     font-weight: 700;
+   
+    
+     font-size: 13px;
+     line-height:18px;
+   
+    color: #616161;;
+   
+   
+
+}
+
+#thumbsup{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#first-two{
+    border: 1px solid blue;
+    background-color: white; 
+   
+   
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    font-style: normal;
+     font-weight: 700;
+    
+     
+     font-size: 13px;
+     line-height:18px;
+     /* height: 100px; */
+     padding-left: 10px;
+   
+    }
+
+
+    #tick{
+
+    display: flex;
+    color: green;
+    font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+            font-style: normal;
+
+    }
+    #tick div{
+        display: flex;
+        margin-top: -20px;
+        gap: 1px;
+    }
+
+    #tick svg{
+        width: 5%;
+    }
+
+
+    .traveller-name{
+
+        margin-top: -15px;
+        border-radius: 10px;
+        width: 200px;
+        height: 20px;
+    }
+
+    #first-three{
+        border: 1px solid blue;
+        background-color: white; 
+       
+        font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+        font-style: normal;
+       
+        
+         padding-left: 10px;
+       
+        }
+
+        #ppp{
+            font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+           font-style: normal;
+          font-weight: 400;
+    
+     
+          font-size: 15px;
+         line-height:18px;
+         color: #616161;
+         
+
+        }
+
+        #first-three div{
+            border: 1px solid gray;
+            padding: 5px;
+            width: 97%;
+        }
+
+        #countries{
+            width: 220px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 18px;
+            padding: 3px;
+            background-color: #ebebeb;
+            
+        }
+
+
+        #payment-section{
+            border: 1px solid blue;
+           background-color: white; 
+       
+           font-family: "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+            font-style: normal;
+             width: 63%;
+        
+          height: 500px;
+             padding-left: 10px;
+        }
+
+        
+    #tickagain{
+
+        display: flex;
+        color: green;
+    
+        }
+        #tickagain div{
+            display: flex;
+            margin-top: -20px;
+            
+        }
+    
+        #tickagain svg{
+            width: 5%;
+        }
+
+
+        #cards{
+            display: flex;
+            border: 1px solid greenyellow;
+            gap: 15px;
+        }
+#cards img{
+    width: 40px;
+}
+.expiry{
+    color: #616161;
+    width: 100px;
+    text-align: center;
+}
+
+    
+   
+   
