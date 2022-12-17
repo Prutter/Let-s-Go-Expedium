@@ -13,7 +13,8 @@ let objdata= [
         city: "New-Delhi",
         title: "Radison Blu",
         rating: "4.2",
-        offer: "10% on royal suits"
+        offer: "10% on royal suits",
+        main:"Basic Room, 2 Single Rooms, City view, Parking and locker facility"
     },
     {
         i: 1,
@@ -29,7 +30,8 @@ let objdata= [
         city: "New-Delhi",
         title: "Leela Palace",
         rating: "5",
-        offer: "None"
+        offer: "None",
+        main: "Duluxe Room, 2 Single Rooms, City view, Parking and locker facility"
     },
     {
         i: 1,
@@ -45,7 +47,8 @@ let objdata= [
         city: "New-Delhi",
         title: "Andaaz Hotel",
         rating: "4.7",
-        offer: "12% offer on today"
+        offer: "12% offer on today",
+        main : "Classic Room, 2 Single Rooms, City view, Parking and locker facility"
     },
     {
         i: 1,
@@ -61,7 +64,8 @@ let objdata= [
         city: "New-Delhi",
         title: "Taj Hotel",
         rating: "4.9",
-        offer: "15% Off on Pre- booking"
+        offer: "15% Off on Pre- booking",
+        main : "Premium Room, 2 Single Rooms, City view, Parking and locker facility"
     },
 	{
 		i: 1,
@@ -77,7 +81,8 @@ let objdata= [
 		city: "New-Delhi",
 		title: "Roseate House",
 		rating: "4",
-		offer: "Reserve now and pay later."
+		offer: "Reserve now and pay later.",
+        main : "Royal Room, 2 Single Rooms, City view, Parking and locker facility"
 	  }
 ]
 
@@ -85,80 +90,77 @@ let el = (tag)=>{
 	return document.createElement(tag);
 }
 
-let renderDom = (data)=>{
-	let container = document.querySelector(".container")
-	data.forEach((ele)=>{	
-		let div1 = el("div");
-		let image = el("img");
-		image.src = ele["image"][1];
-		let s1 = el("span");
-		s1.innerHTML = "Ad"
-		s1.setAttribute("class","arrow adv")
-		let s2 = el("span");
-		s2.innerHTML = "&#10094;"
-		s2.setAttribute("class","arrow prev")
-		let j;
+let renderdom=(objdata)=>{
+    let main = document.querySelector(".reserve");
+    main.innerHTML = null;
+
+    objdata.forEach((ele)=>{
+        let div= el("div");
+        let h3= el("h3");
+        h3.innerHTML = ele.main;
+        let p1= el("p");
+        p1.innerHTML = 'No guest room view.'
+        let p2= el("p");
+        p2.innerHTML = '&#128719; 3 Beds.'
+        let p3= el("p");
+        p3.innerHTML = '&#127968; 2 Single Rooms.'
+        let p4= el("p");
+        p4.innerHTML = '&#127327; Free Parking Slots.'
+        let p5= el("p");
+        p5.innerHTML = '&#127760; Free Wifi.'
+        let p6= el("p");
+        p6.innerHTML= '&#127828; Dinner & breakfast included'
+        let p7= el("p");
+        p7.innerHTML = "&#127749; 2 Days & &#127747; 3 Nights."
+        let h2 = el("h2");
+        h2.innerHTML = "&#8377; "+ele.price;
+        let btn = el("button");
+        btn.innerHTML = "Reserve Room";
+        btn.onclick = ()=>{
+            localStorage.setItem("myroomtype",JSON.stringify(ele))
+            window.location.href = "checkout.html";
+        }
+        let h = el("hr");
+        let hr = el("hr")
+        div.append(h3,hr,p1,p2,p3,p4,p5,p6,p7,h,h2,btn);
+
+
+        let div1= el("div");
+        let div2= el("div");
+        let im = el("img");
+        im.src= ele.image[0];
+        div2.append(im);
+        let s1= el("span");
+        s1.innerHTML = '&#10094;'
+        s1.setAttribute("id","left");
+        let j;
 		j= ele['i']
-		s2.onclick= ()=>{
-			console.log(j);
+		s1.onclick= ()=>{
 			if(j==0)
 			j=3;
-			image.src= ele["image"][j];
+			im.src= ele["image"][j];
 			j=j-1 
 
 			ele['i'] = j
 		}
-		let s3 = el("span");
-		s3.innerHTML = "&#10095;"
-		s3.setAttribute("class","arrow next")
-		s3.onclick= ()=>{
-			console.log(j);
+        let s2= el("span");
+        s2.innerHTML = '&#10095;';
+        s2.setAttribute("id","right")
+        s2.onclick= ()=>{
 			j=j +1;
 			if(j>=4)
 			j=0;
-			image.src= ele["image"][j];
+			im.src= ele["image"][j];
 			ele['i'] = j;
 		}
-		let s4 = el("span");
-		s4.innerHTML = "&#9825;"
-		s4.setAttribute("class","heart");
+        div1.append(div2,s1,s2);
+        div1.setAttribute("class","roomdiv")
+        let doc= el("div");
+        doc.append(div1,div);
+        doc.setAttribute("class","room")
 
-		let div2 = el("div");
-		let title = el("h1");
-		title.setAttribute("class","title")
-		title.innerHTML = ele.title;
-		let location = el("h3");
-		location.setAttribute("class","location")
-		location.innerHTML = ele.location
-		let desc = el("p");
-		desc.setAttribute("class","description")
-		desc.innerHTML = ele.description
-		let rating = el("h2");
-		rating.setAttribute("class","rating");
-		rating.innerHTML = ele.rating+ " &#9733;"
-
-		let div3 = el("div");
-		let off = el("button")
-		off.innerHTML = ele.offer;
-		off.setAttribute("class","offer")
-		let pr = el("h1")
-		pr.innerHTML = '&#8377; '+ele.price
-		pr.setAttribute("class","price");
-		let include = el("p");
-		include.innerHTML = "Includes All Taxes And Charges.";
-
-		div1.append(image,s1,s2,s3,s4);
-		div1.setAttribute("class","image");
-		div2.append(title,location,desc,rating);
-		div2.setAttribute("class","div2")
-		div3.append(off,pr,include);
-		div3.setAttribute("class","div3");
-
-		let main = el("div")
-		main.append(div1,div2,div3);
-		main.setAttribute("class","con");
-		container.append(main);
-	})
+        main.append(doc);
+    })
 }
 
-renderDom(objdata);
+renderdom(objdata);
