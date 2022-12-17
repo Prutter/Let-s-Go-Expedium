@@ -12,9 +12,9 @@ form.addEventListener("submit",async(event)=>{
         email,
         password
     }
-compare(login_obj)
+compared(login_obj)
 })
-const compare=async(login_obj)=>{
+const compared=async(login_obj)=>{
     console.log(login_obj.password)
     let res=await fetch(url)
     res=await res.json()
