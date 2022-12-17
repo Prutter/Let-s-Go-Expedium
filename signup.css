@@ -1,0 +1,27 @@
+#form_div{
+    border:2px solid blue;
+    width: auto;
+
+}
+h1{
+    border: 2px solid red;
+    text-align: center;
+    font-size: 50px;
+}
+
+#form{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+#form input{
+    font-size: 20px;
+}
+#submit_btn{
+    font-size: 20px;
+}
+#Google_Sign_In{
+    font-size: 50px;
+    border: 2px solid rgb(5, 122, 194);
+    background-color: rgb(5, 122, 194);
+}

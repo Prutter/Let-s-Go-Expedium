@@ -1,0 +1,61 @@
+.reserve{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto);
+    gap: 20px;
+}
+.room{
+    height: 100%;
+    background-color: RGB(225 229 233);
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.roomdiv{
+    height: 35%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+span{
+    position: absolute;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 40% 50%;
+    top: 45%;
+}
+#left{
+    left: 7%;
+}
+#right{
+    right: 7%;
+}
+.roomdiv>div{
+    border-radius: 10px;
+    height: 100%;
+}
+.roomdiv>div>img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+button{
+    margin-left: 20%;
+    padding: 10px 20px;
+    background-color: rgb(73, 73, 221);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.room >div:nth-child(2){
+    padding: 10px 16px;
+    line-height: 18px;
+}
+p+p{
+    margin-top: -10px;
+}
