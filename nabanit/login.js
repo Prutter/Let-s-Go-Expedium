@@ -12,17 +12,26 @@ form.addEventListener("submit",async(event)=>{
         email,
         password
     }
-let res=await fetch(url)
-res=await res.json()
-// console.log(res);
-// console.log(login_obj);
-if(res.password===login_obj.password && login_obj.email==res.email){
-    alert("Login Successful!")
-} else{
-    if(res.password!=login_obj.password){
-        alert("Password Unmatched!")
-    }else{
-        alert("No email like this exists!")
+compare(login_obj)
+})
+const compare=async(login_obj)=>{
+    console.log(login_obj.password)
+    let res=await fetch(url)
+    res=await res.json()
+    console.log(res);
+    let count=0
+    for(let i=0;i<res.length;i++){
+         
+        if(res[i].password==login_obj.password && res[i].email==login_obj.email){
+            
+            count++
+        }
+        
+    }
+    if(count>0){
+        alert("Login Successful!")
+    }
+    else{
+        alert("Unsuccessful!")
     }
 }
-})
