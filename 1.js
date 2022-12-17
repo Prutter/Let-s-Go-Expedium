@@ -186,3 +186,22 @@ let renderDom = (data)=>{
 }
 
 renderDom(objdata);
+
+
+
+
+
+function displayData(){
+let main_div=document.getElementById("flight-div")
+let data=JSON.parse(localStorage.getItem("flightData"))||[]
+
+data.forEach((el)=>{
+    
+	let name=document.createElement("h1")
+    name.innerText=el.destination
+
+main_div.append(name)
+
+})
+}
+displayData()
