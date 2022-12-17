@@ -1,0 +1,144 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+#search-banner {
+    background-image: url(//s3-us-west-2.amazonaws.com/voy.csp.assets/header/1200/expedia-1200x100.jpg);
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100px;
+    width: 100%;
+}
+header#search-banner .search-banner-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+#search-banner .position-wrapper {
+    padding-right: 24px;
+    margin: 0 auto;
+    max-width: 69.17647058823529em;
+    width: 100%;
+}
+header#search-banner .wrapper-title {
+    width: 34%;
+}
+header#search-banner .wrapper-title {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: middle;
+}
+header#search-banner #search-container {
+    display: inline-block;
+    padding: 0 1.41176471em;
+    min-width: 440px;
+    vertical-align: middle;
+}
+label {
+    display: block;
+    position: relative;
+    color: #3e3e3e;
+    margin-top: 0;
+}
+header#search-banner #search-container input[type=search] {
+    box-sizing: content-box;
+    font-size: 18px;
+    line-height: 2em;
+    width: 350px;
+    height: 50px;
+} 
+#site-content{
+    background-color: #ededed;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+#content-1{
+    height: 100px;
+    width: 50%;
+    margin-left: 195px;
+}
+#content-1 > h3{
+    margin-top: 25px;
+    color: #58738a;
+    font-weight: 700;
+    font-size: 1.17647059em;
+    line-height: 1.35;
+    font-family: 'Helvetica Neue',Arial,'Lucida Grande',STHeiti,sans-serif;
+}
+#content-1 > p{
+    margin-top: 15px;
+    font-family: 'Helvetica Neue',Arial,'Lucida Grande',STHeiti,sans-serif;
+    font-size: 1em;
+    line-height: 1.41176471;
+    color: #616161;
+}
+#content-2{
+    height: 100px;
+    width: 50%;
+}
+#content-2 > button{
+    margin-top: 25px;
+    margin-left: 450px;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 5%;
+    border: 2px solid rgb(81, 79, 79);
+}
+#customer-1{
+    background-color: #ededed;
+    height: 400px;
+    width: 100%;
+}
+#customer-2{
+    background-color: white;
+    border: 1px solid #817e7e;
+    height: 350px;
+    width: 17%;
+    margin-left: 195px;
+    font-family: 'Helvetica Neue',Arial,'Lucida Grande',STHeiti,sans-serif;
+}
+.customer-a {
+    padding-top: 8px;
+}
+.customer-a > a{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: 700;
+    font-size: large;
+    padding: 0.5em 1.5em;
+}
+#customer-b > li > a{
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    padding: 0;
+}
+#customer-b > li{
+    list-style-type: none;
+    padding: 0.2em 1.5em;
+    line-height: 1.3em;
+    font-family: 'Helvetica Neue',Arial,'Lucida Grande',STHeiti,sans-serif;
+}
+#prop-add {
+    text-align: center;
+    margin-top: 15px;
+}
+#prop-add > button{
+    border: 2px solid blue;
+    width: 280px;
+    height: 35px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 3px;
+}
+#prop-add > button > a{
+    text-decoration: none;
+    padding: 10px 10px;
+}
