@@ -18,3 +18,9 @@
     localStorage.setItem("flightData",JSON.stringify(data))
     window.location.href="1.html"
    }
+   let select = document.getElementById("select");
+   let list = document.getElementById("list");
+
+   select.onclick = function(){
+       list.classList.toggle("open")
+   }
