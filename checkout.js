@@ -16,5 +16,14 @@
 // let security-code = document.getElementById("security-code")
 
 
+// let price=  document.getElementById("pricee").innerText
+//   console.log(price);
+//  let y = document.getElementById("discounted")
+
+//    y.innerText= (10/100)*price
+
+//    console.log(y)
+
+
 
   
