@@ -1,0 +1,284 @@
+body{
+   
+    /* background-clip: url(""); */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form_div{
+    border:0px solid blue;
+    width:100%;
+    margin:auto;
+}
+h1{
+    border: 0px solid red;
+  
+    font-size: 50px;
+    color: whitesmoke;
+    
+}
+
+#form{
+    border: px solid black;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+ 
+}
+#form input{
+    font-size: 20px;
+    width: 90%;
+    /* margin: auto; */
+    padding: 5px 10px 5px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#form #submit{
+    font-size: 20px;
+    width: 30%;
+    background-color: #0087f5;
+    color: white;
+    cursor: pointer;
+  
+margin-bottom: 40px;
+}
+#logoDiv{
+    margin-top: 30px;
+    display: flex;
+    width: 85%;
+    margin: auto;
+    height: 200px;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    text-align: center;
+}
+#logoDiv div{
+    /* border-radius: 50%; */
+    height: 100%;
+    width: 50%;
+    border: 0px solid white;
+    
+    
+}
+#logoDiv> div img{
+    width: 100%;
+    height: 100%;
+}
+#x{
+    color:white
+}
+#img1{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+#navbar{
+    height: 100px;
+    width: 100%;
+   cursor: pointer;
+}
+#nav-1{
+    background-color: #343b53;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+#nav-1 > p{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: small;
+    font-weight: 200;
+    cursor: pointer;
+}
+#nav-1 > p > a{
+    color: #fff;
+    cursor: pointer;
+}
+#nav-2{
+    border: 1px solid rgb(160, 156, 156);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#down-arrow{
+    width: 18px;
+    height: 10px;
+    margin-left: 8px;
+}
+#logo > img{
+    margin-left: 280px;
+    width: 180px;
+    height: 50px;
+    border-radius: 0%;
+}
+.more-bar{
+    max-width: 800px;
+    margin-left: 25px;
+    display: flex;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: small;
+    font-weight: 400;
+}     
+#select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ 
+}
+#select ul{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    top: 200%;
+    width: 350px;
+    list-style: none;
+    max-height: 0;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#select ul li{
+    padding: 15px 20px;
+    cursor: pointer;
+}    
+#select ul.open{
+    max-height: 375px;
+}     
+#prop-list{
+    margin-left: 550px;
+    gap: 25px;
+    display: flex;
+
+}
+#prop-list > p{
+    margin-top: 10px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: small;
+    font-weight: 400;
+}
+.earth-bell {
+    width: 12px;
+    height: 12px;
+}
+.bell-earth{
+    margin-top: 2px;
+    width: 18px;
+    height: 18px;
+}
+.options > .lob_hotels{
+    width: 23px;
+    height: 23px;
+}
+.options > a{
+    margin-top: 8px;
+    margin-left: 8px;
+    color: black;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: small;
+    font-weight: 400;
+    text-decoration: none;
+}
+.options{
+    display: flex;
+    height: 45px;
+}
+/* footer css  */
+#main-footer{
+    height: 440px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+#expedia-group{
+    height: 40px;
+    width: 100%;
+}
+#expedia-group > a > img{
+    width: 150px;
+    height: 40px;
+    margin-left: 140px;
+}
+#company-expedia{
+    height: 225px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.ce-1{
+    height: 225px;
+    width: 20%;
+}
+.ce-1 > p{
+    margin-top: 1px;
+    padding: 8px 0px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-synthesis: none;
+    border-style: solid;
+    border-width: 0;
+    font-size: 14px;
+    line-height: inherit;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-weight: 600;
+    list-style: none;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+.ce-1 > a{
+    text-decoration: none;
+    margin-top: 0px;
+    padding: 7px 0px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-synthesis: none;
+    border-style: solid;
+    border-width: 0;
+    font-size: 12px;
+    line-height: inherit;
+    display: list-item;
+    font-weight: 600;
+    color: rgb(26, 26, 182);
+    list-style: none;
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+#underline{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+#fotter-logo{
+    margin-left: 135px;
+    margin-top: 0px;
+}
+#fotter-para{
+    margin-top: 0px;
+    margin-left: 135px; 
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-synthesis: none;
+    font-size: 11px;
+}
+
+/* forget */
+.forget-div{
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    color:#343b53;
+}
+
+#sig{
+    background-image: url("https://th.bing.com/th/id/OIP.LZmP8va1JRV84wv2oFhiNwHaEY?w=318&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7");  
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,5 +1,5 @@
 
-   document.querySelector("form").addEventListener("submit",AddData)
+  let form = document.querySelector("form").addEventListener("submit",AddData)
    
    
    function AddData(event)
@@ -17,10 +17,6 @@
     data.push(obj)
     localStorage.setItem("flightData",JSON.stringify(data))
     window.location.href="1.html"
+    form.reset()
    }
-   let select = document.getElementById("select");
-   let list = document.getElementById("list");
-
-   select.onclick = function(){
-       list.classList.toggle("open")
-   }
+  
