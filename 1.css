@@ -93,3 +93,16 @@ body{
     border-radius: 10px;
     border-color: white;
 }
+
+#flight-div{
+    border: 1px solid gray;
+    width: 45%;
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+}
+.detail-div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

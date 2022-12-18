@@ -196,11 +196,23 @@ let main_div=document.getElementById("flight-div")
 let data=JSON.parse(localStorage.getItem("flightData"))||[]
 
 data.forEach((el)=>{
-    
-	let name=document.createElement("h1")
-    name.innerText=el.destination
+    let div=document.createElement("div")
+	div.setAttribute("class","detail-div")
+	let name=document.createElement("p")
+	name.setAttribute("class","text-p")
+    name.innerText=`Going to:${el.destination}`
+	let checkin=document.createElement("p")
+	checkin.setAttribute("class","text-p")
+	checkin.innerText=`Check-in:${el.depart}`
+	let checkout=document.createElement("p")
+	checkout.setAttribute("class","text-p")
+	checkout.innerText=`Check-out:${el.raturn}`
+    let passengers=document.createElement("p")
+	passengers.setAttribute("class","text-p")
+	passengers.innerText=`Passengers : ${el.Number}`
 
-main_div.append(name)
+div.append(name,checkin,checkout,passengers)
+main_div.append(div)
 
 })
 }
