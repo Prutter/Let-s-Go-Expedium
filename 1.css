@@ -2,6 +2,7 @@ body{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin: 50px 0;
+    padding: 10px 15px;
     background-color: rgb(248,245,244);
 }
 .poster{
@@ -19,7 +20,7 @@ body{
 .con{
     background-color: white;
     width: 750px;
-    margin: auto 360px;
+    margin: auto 120px auto 100px;
     height: 245px;
     border-radius: 10px;
     display: flex;

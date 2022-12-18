@@ -4,7 +4,7 @@ let objdata= [
 		title : "Andaz Delhi",
 		location : "Delhi",
 		description : "Luxury hotel By Hyatt, near New-Delhi offering spa, bar, transport.",
-		price : 2250,
+		price : 220,
 		rating : 5.5,
 		offer : "15% offer deal",
 		photos :[
@@ -17,7 +17,7 @@ let objdata= [
 		title : "Andaz Delhi",
 		location : "Delhi",
 		description : "Luxury hotel By Hyatt, near New-Delhi offering spa, bar, transport.",
-		price : 2250,
+		price : 250,
 		rating : 5.5,
 		offer : "15% offer deal",
 		photos :[
@@ -30,7 +30,7 @@ let objdata= [
 		title : "Andaz Delhi",
 		location : "Delhi",
 		description : "Luxury hotel By Hyatt, near New-Delhi offering spa, bar, transport.",
-		price : 2250,
+		price : 25,
 		rating : 5.5,
 		offer : "15% offer deal",
 		photos :[
@@ -43,7 +43,7 @@ let objdata= [
 		title : "Andaz Delhi",
 		location : "Delhi",
 		description : "Luxury hotel By Hyatt, near New-Delhi offering spa, bar, transport.",
-		price : 2250,
+		price : 211250,
 		rating : 5.5,
 		offer : "15% offer deal",
 		photos :[
@@ -56,7 +56,7 @@ let objdata= [
 		title : "Andaz Delhi",
 		location : "Delhi",
 		description : "Luxury hotel By Hyatt, near New-Delhi offering spa, bar, transport.",
-		price : 2250,
+		price : 12250,
 		rating : 5.5,
 		offer : "15% offer deal",
 		photos :[
@@ -69,7 +69,7 @@ let objdata= [
 		title : "Andaz Delhi",
 		location : "Delhi",
 		description : "Luxury hotel By Hyatt, near New-Delhi offering spa, bar, transport.",
-		price : 2250,
+		price : 22500,
 		rating : 5.5,
 		offer : "15% offer deal",
 		photos :[
@@ -82,7 +82,7 @@ let objdata= [
 		title : "Andaz Delhi",
 		location : "Delhi",
 		description : "Luxury hotel By Hyatt, near New-Delhi offering spa, bar, transport.",
-		price : 2250,
+		price : 5550,
 		rating : 5.5,
 		offer : "15% offer deal",
 		photos :[

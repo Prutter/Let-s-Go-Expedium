@@ -6,13 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="sidebar.css">
 </head>
 <body>
-    <div class="container"></div>
-    <div class="poster">
-        <img src="https://img.pikbest.com/origin/06/04/67/40dpIkbEsTF7w.jpg!bw700" alt="">
-        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/88674130674819.562e4a4eee248.jpg" alt="">
+    <div style="display: flex;">
+        <div id="main">
+            <div id="map">
+            </div>
+             <br>
+            <a id="hreff" href="https://www.google.com/maps"> View in Maps</a>
+            <br>
+            <hr>
+            <p id="p">Search by property name</p>
+            <button id="btn"> &#128269;  e.g Marriott</button>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <h3>Sorting by</h3>
+            <select name="price" id="price">
+            <option value="any">Sorting by Price</option>
+            <option value="Low to high" id="Lowtohigh">Low to high</option>
+            <option  value="High to low" id="Hightolow">High to low</option>
+           </select>
+            <br>
+            <br>
+            <select name="rating" id="rating">
+             <option value="all">Sorting by Rating</option>
+            <option value="low to high">Low to high</option>
+            <option value="high to low">High to low</option>
+          </select>
+           <br>
+           <br>
+            <h3>Filter by</h3>
+            <h4>Popular Fiters</h4>
+          <div id="first-filter">
+           <input type="checkbox" value="Delhi" id="loc1">
+           <label for="loc1">Delhi (Indira Gandhi Intl.)</label><br>
+           <input type="checkbox" value="Hyderabad" id="loc2">
+           <label for="loc2">Hyderabad</label><br>
+           <input type="checkbox" id="vehicle3"  >
+           <label for="vehicle3"> Breakfast included</label><br>
+           <input type="checkbox" id="vehicle4" >
+           <label for="vehicle3">Hotel </label>
+           </div>
+           <br>
+           <h4>Meals plan available</h4>
+          <div id="fourth-filter">
+           <input type="radio" id="Breakfast" >
+           <label for="Breakfast">Breakfast included</label><br>
+           <input type="radio" id="Lunch">
+           <label for="Lunch">Lunch Included</label><br>
+           <input type="radio" id="Dinner"  >
+           <label for="Dinner">Dinner included</label><br>
+           </div>
+         <br>
+         <h4>Area</h4>
+         <div id="third-filter">
+           <input type="radio" id="Delhi " >
+           <label for="Delhi">Delhi (and vicinity)</label><br>
+              <input type="radio" id="Connaught Place" >
+              <label for="Connaught Place">Connaught Place</label><br>
+          <input type="radio" id="Aerocity" >
+              <label for="Aerocity">Aerocity</label><br>
+              <input type="radio" id="Noida">
+           <label for="Noida">Noida</label><br>
+           <input type="radio" id="Saket">
+           <label for="Saket">Saket</label><br>
+           <input type="radio" id="Dwarka">
+           <label for="Dwarka">Dwarka</label><br>
+           <input type="radio" id="Mahipalpur">
+           <label for="Mahipalpur">Mahipalpur</label><br>
+           <input type="radio" id="Rohini">
+           <label for="Rohini">Rohini</label><br>
+           <input type="radio" id="Rajouri Garden">
+           <label for="Rajour Garden">Rajouri Garden</label><br>
+          </div>
+           <br>
+           <h4>Guest Rating</h4>
+          <div id="second-filter">
+                   <input type="checkbox" id="html" >
+                     <label for="html">Any</label><br>
+                        <input type="checkbox" id="css" >
+                        <label for="css">Wonderful 5+</label><br>       
+                    <input type="checkbox" id="javascript" >
+                        <label for="javascript">Very good 4+</label><br>
+                        <input type="checkbox" id="javascript">
+                     <label for="javascript">Good 3+</label>
+           </div>
+           <br>
+           <h4>Amenities</h4>
+          <div id="fifth-filter">
+           <input type="checkbox" id="Pool" >
+           <label for="Pool">Pool</label><br>
+           <input type="checkbox" id="Wi-fi">
+           <label for="Wi-fi">Wi-fi</label><br>
+           <input type="checkbox" id="Free Airport Shuttle">
+           <label for="Dinner">Free Airport Shuttle</label><br>
+           </div>
+        </div>
+        <div >
+            <p id="container"></p>
+        </div>
+        <div class="poster">
+            <img src="https://img.pikbest.com/origin/06/04/67/40dpIkbEsTF7w.jpg!bw700" alt="">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/88674130674819.562e4a4eee248.jpg" alt="">
+        </div>
+        <div class="container"></div>
+        
     </div>
 </body>
 </html>
-<script src="1.js"></script>
+<script src="sidebar.js"></script>
