@@ -1,3 +1,14 @@
+let myroomtype = JSON.parse(localStorage.getItem("myroomtype"));
+console.log(myroomtype);
+
+let up = document.getElementById("pricee")
+up.innerHTML = "&#8377; "+myroomtype.price;
+let updatedprice= myroomtype.price* (0.9);
+let dis = document.getElementById("discounted");
+dis.innerHTML = "&#8377; "+myroomtype.price* (0.1);
+let totalval = document.getElementById("totalvalue");
+totalval.innerHTML = "&#8377; "+updatedprice;
+
 let obj = JSON.parse(localStorage.getItem("my_user"));
 
 let a = document.getElementById("signin");

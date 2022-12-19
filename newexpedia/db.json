@@ -119,6 +119,70 @@
       "contact": 1111,
       "password": "12345",
       "id": 20
+    },
+    {
+      "name": "hishsal",
+      "email": "kashishbansal@gmail.com",
+      "address": "asas",
+      "contact": 8700716992,
+      "password": "122",
+      "id": 21
+    },
+    {
+      "name": "kashish",
+      "email": "kashishbansal044@gmail.com",
+      "address": "wqq",
+      "contact": 2322,
+      "password": "343",
+      "id": 22
+    },
+    {
+      "name": "name",
+      "email": "qw",
+      "address": "wqq22",
+      "contact": 11,
+      "password": "11",
+      "id": 23
+    },
+    {
+      "name": "a",
+      "email": "kashishbansal044@gmail.com",
+      "address": "asas",
+      "contact": 111,
+      "password": "111",
+      "id": 24
+    },
+    {
+      "name": "kas",
+      "email": "kashishbansal044@gmail.com",
+      "address": "asas",
+      "contact": 12345,
+      "password": "2131",
+      "id": 25
+    },
+    {
+      "name": "kashish",
+      "email": "kashishbansal044@gmail.com",
+      "address": "asas",
+      "contact": 23,
+      "password": "23",
+      "id": 26
+    },
+    {
+      "name": "kashish",
+      "email": "kashishbansal044@gmail.com",
+      "address": "lop",
+      "contact": 0,
+      "password": "099",
+      "id": 27
+    },
+    {
+      "name": "kashish",
+      "email": "kashishbansal044@gmail.com",
+      "address": "wqq",
+      "contact": 123,
+      "password": "121",
+      "id": 28
     }
   ]
 }

@@ -23,13 +23,19 @@ form.addEventListener("submit",async(event)=>{
                "Content-Type":"application/json"
             }
         }) 
-        window.location.href="./login.html"
         alert("Sign In Successful!") 
+        
+        
     }
     catch(err){
         console.log("err:",err);
         alert("Unsuccessful Registration!")
       
     }
-    
+    window.location.href = 'login.html'
 })
+
+let bbb = document.getElementById("letme");
+bbb.onclick=()=>{
+    window.location.href = "./login.html"
+}

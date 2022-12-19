@@ -247,6 +247,13 @@ let el = (tag)=>{
 }
  
 let renderDom = (data)=>{
+    let myhotel = JSON.parse(localStorage.getItem("hotels"));
+    if(myhotel!=null)
+    {
+      data.unshift(myhotel[0]);
+    console.log(data);
+    console.log(myhotel);
+    }
     let container = document.querySelector(".container")
    container.innerHTML = null
     data.forEach((ele)=>{  
